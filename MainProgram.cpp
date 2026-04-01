@@ -1,4 +1,4 @@
- // ============================================================================
+// ============================================================================
 // Lab: Destructors, Copy Constructors, and Default Memberwise Assignment
 // Course: Object-Oriented Programming for Engineers
 // File: MainProgram.cpp (Student Version)
