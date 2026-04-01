@@ -1,4 +1,4 @@
-// ============================================================================
+ // ============================================================================
 // Lab: Destructors, Copy Constructors, and Default Memberwise Assignment
 // Course: Object-Oriented Programming for Engineers
 // File: MainProgram.cpp (Student Version)
@@ -67,7 +67,7 @@ public:
         //   2. Calculate length of input using strlen()
         //   3. Allocate m_data with new char[m_length + 1]
         //   4. Copy input into m_data using strcpy()
-        g_assignmentCount++;
+        g_constructorCount++;
         m_length =strlen(input);
         m_data=new char[m_length+1];
         strcpy(m_data,input);
@@ -122,7 +122,7 @@ public:
         //   5. Allocate new memory: new char[m_length + 1]
         //   6. Copy string data using strcpy()
         //   7. Return *this
-         g_assignmentCount++;
+         g_assigmentCount++;
         if (this == &other)
         { 
             return *this;
@@ -259,4 +259,3 @@ int main() {
 
     return 0;
 }
-
